@@ -1,0 +1,170 @@
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="./slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick-theme.css"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+    .slick-prev, .slick-next {
+      background: black;
+}
+
+li {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.container {
+    padding-top: 70px;
+}
+body {
+    background: #3498db;
+}
+
+#slider{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    height: 50px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+  </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-content">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="slider_btn all-filters active" data-goods="all"><a>All</a>
+              </li>
+              <li class="slider_btn computers-filter" data-goods="computers"> <a>Computers</a>
+              </li>
+              <li class="slider_btn pads-filter" data-goods="pads"> <a>Pads</a>
+              </li>
+              <li class="slider_btn mouses-filter" data-goods="mouses"> <a>Mouses</a>
+              </li>
+              <li class="slider_btn leds-filter" data-goods="leds"> <a>Leds</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ 
+ 
+      <div class="filtering">
+        <img class="all computers" src="http://placehold.it/100x100/E8117F">
+        <img class="all pads" src="http://placehold.it/100x100/4679BD">
+        <img class="all mouses" src="http://placehold.it/100x100/FDD08A">
+        <img class="all leds" src="http://placehold.it/100x100/E817F">
+        <img class="all computers" src="http://placehold.it/100x100/E8117F">
+        <img class="all pads" src="http://placehold.it/100x100/4679BD">
+        <img class="all mouses" src="http://placehold.it/100x100/FDD08A">
+        <img class="all leds" src="http://placehold.it/100x100/E817F">
+        <img class="all computers" src="http://placehold.it/100x100/E8117F">
+        <img class="all pads" src="http://placehold.it/100x100/4679BD">
+        <img class="all mouses pads" src="http://placehold.it/100x100/FDD08A">
+        <img class="all leds pads" src="http://placehold.it/100x100/E817F">
+        <img class="all computers" src="http://placehold.it/100x100/E8117F">
+        <img class="all pads" src="http://placehold.it/100x100/4679BD">
+        <img class="all mouses pads" src="http://placehold.it/100x100/FDD08A">
+        <img class="all leds pads" src="http://placehold.it/100x100/E817F">
+      </div> -->
+ 
+
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-content">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="slider_btn all-filters active"><a href="#" data-filter-heading="all">All</a>
+              </li>
+              <li class="slider_btn computers-filter">  <a href="#" data-filter-heading="category-1">Filter 1</a>
+              </li>
+              <li class="slider_btn pads-filter" >  <a href="#" data-filter-heading="category-2">Filter 2</a>
+              </li>
+              <li class="slider_btn mouses-filter">  <a href="#" data-filter-heading="category-3">Filter 3</a>
+              </li>
+              <li class="slider_btn mouses-filter">  <a href="#" data-filter-heading="category-4">Filter 4</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+   
+  
+  
+
+    <div id="slider" class="slider slick-slider">
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-2"><h1>2</h1></div>
+      <div class="category-3"><h1>3</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-3"><h1>3</h1></div>
+      <div class="category-3"><h1>3</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-4"><h1>4</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-2"><h1>2</h1></div>
+      <div class="category-4"><h1>4</h1></div>
+      <div class="category-3"><h1>3</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-4"><h1>4</h1></div>
+      <div class="category-3"><h1>3</h1></div>
+      <div class="category-3"><h1>3</h1></div>
+      <div class="category-2"><h1>2</h1></div>
+      <div class="category-1"><h1>1</h1></div>
+      <div class="category-3"><h1>3</h1></div>
+      <div class="category-2"><h1>2</h1></div>
+      <div class="category-4"><h1>4</h1></div>
+      <div class="category-1"><h1>9</h1></div>
+    </div>
+    
+    
+    
+  </div>  
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.0/gsap.min.js"></script>
+  <script type="text/javascript" src="./slick.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+  
+  </body>
+</html>
